@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="static/picture/">
+    <link rel="stylesheet" href="static/partners/">
+    <link rel="icon" href="static/picture/favicon.ico">
+    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="static/user-dashboard.css">
+    <link rel="stylesheet" href="static/dashboard-media.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+
+        <div class="top-menu">
+            <div class="menu1">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="menu2">
+                <div>
+                    <h3>
+                        hi, username
+                    </h3>
+                </div>
+                <div>
+                    <img src="static/picture/1-old.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="view-transactions">
+            <div>
+                <div class="transactions-head">
+                    <h3>deposite to account</h3>
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+                <div class="error-m">
+                    <h3>
+                        if any error
+                    </h3>
+                </div>
+                <div>
+                    <div class="user-card">
+                        <form action="confirm-transfer.html" method="post" enctype="multipart/form-data">
+                            <div class="input">
+                                <p>from</p>
+                                <select name="user" id="">
+                                    <option value="">Select User</option>
+                                </select>
+                            </div>
+                            <div class="input">
+                                <p>to</p>
+                                <select name="user" id="">
+                                    <option value="">Select User</option>
+                                </select>
+                            </div>
+                            <div class="input">
+                                <input type="text" placeholder="Amount" name="amout">
+                            </div>
+                            <div class="input">
+                                <textarea name="des" id="" placeholder="Description"></textarea>
+                            </div>
+                            <div class="input">
+                                <button>proceed</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

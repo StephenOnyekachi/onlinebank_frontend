@@ -1,0 +1,171 @@
+@media screen and (max-width: 900px) {
+
+    :root{
+        --lighter-bg: rgb(249, 249, 249);
+        --light-bg: rgb(213, 209, 209);
+        --text-1: rgb(135, 0, 0);
+        --text-2: rgb(2, 2, 40);
+        --muted-text: rgb(24, 22, 22);
+        --light-text: rgb(102, 102, 102);
+        --dark-text: rgb(8, 8, 8);
+    }
+    
+    .benafit{
+        padding: 2px;
+        background-color: var(--light-bg);
+    }
+    .benafit-title{
+        width: 100%;
+        justify-self: center;
+        justify-content: center;
+        padding: 5px;
+    }
+    .benafit-title span{
+        color: var(--light-text);
+        /* color: var(--dark-text); */
+        font-weight: none;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        line-height: 1.2;
+    }
+    .benafit-title p{
+        color: var(--muted-text);
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        line-height: 1.5;
+    }
+    .benafit-card{
+        width: 100%;
+        justify-self: center;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .benafit-cards{
+        padding: 20px;
+        box-shadow: 0px 1px 3px 1px var(--muted-text);
+        width: 100%;
+        background-color: var(--lighter-bg);
+        margin: 5px;
+        text-transform: capitalize;
+    }
+    .benafit-cards p{
+        color: var(--muted-text);
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 1.5;
+    }
+    .benafit-image{
+        padding: 2px;
+        text-transform: capitalize;
+    }
+    .benafit-image-cards{
+        width: 100%;
+        justify-self: center;
+        padding: 5px;
+    }
+
+    .task-box{
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .task-box a{
+        text-decoration: none;
+        width: 50%;
+        padding: 10px;
+    }
+    .task-card{
+        background-color: var(--lighter-bg);
+        padding: 10px;
+    }
+    .task-card small{
+        font-size: 18px;
+        color: var(--light-text);
+    }
+
+    .user-card{
+        background-color: var(--lighter-bg);
+        padding: 10px;
+        width: 100%;
+        margin: 0px;
+    }
+    .user-card small{
+        font-size: 18px;
+        color: var(--light-text);
+    }
+
+    .input input{
+        font-size: 18px;
+    }
+    .input select{
+        font-size: 18px;
+    }
+    .input textarea{
+        font-size: 18px;
+    }
+
+
+
+    /* .benafit-image-cards img{
+        justify-self: center;
+        border: 3px solid var(--text-1);
+        width: 173px;
+    } */
+    .benafit-image-cards2{
+        width: 100%;
+        justify-self: center;
+        padding: 5px;
+    }
+    /* .benafit-image-cards2 img{
+        justify-self: center;
+        border: 3px solid var(--text-1);
+        width: 100px;
+    } */
+    .benafit-image-cards{
+        width: 100%;
+        justify-self: center;
+        padding: 10px;
+    }
+    .benafit-image-cards p{
+        color: var(--muted-text);
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 1.5;
+    }
+    .social-prove-box{
+        display: block;
+        justify-self: center;
+    }
+    .social-prove-card p{
+        font-size: 18px;
+        color: var(--light-text);
+        line-height: 1.5;
+    }
+    .input{
+        font-size: 18px;
+    }
+    .input input{
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: var(--lighter-bg);
+        color: var(--light-text);
+    }
+    .input select{
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: var(--lighter-bg);
+        color: var(--light-text);
+    }
+
+}

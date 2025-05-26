@@ -1,0 +1,146 @@
+@media screen and (max-width: 900px) {
+
+    :root{
+        --lighter-bg: rgb(249, 249, 249);
+        --light-bg: rgb(213, 209, 209);
+        --text-1: rgb(135, 0, 0);
+        --text-2: rgb(2, 2, 40);
+        --muted-text: rgb(24, 22, 22);
+        --light-text: rgb(102, 102, 102);
+        --dark-text: rgb(8, 8, 8);
+    }
+    
+    .menu-banner{
+        margin-top: 60px;
+        height: 80vh;
+    }
+    .menu-banner img{
+        height: 80vh;
+        width: 100%;
+    }
+    .menu-banner-text-box{
+        padding: 10px;
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top: -740px;
+        margin-left: 0px;
+        text-transform: capitalize;
+    }
+    .menu-banner-text-box p{
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: var(--lighter-bg);
+        margin-top: 20px;
+    }
+    .benafit{
+        padding: 10px;
+        background-color: var(--light-bg);
+    }
+    .benafit-title{
+        width: 100%;
+        justify-self: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .benafit-title span{
+        color: var(--light-text);
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .benafit-card{
+        width: 100%;
+        justify-self: center;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .benafit-cards{
+        padding: 20px;
+        width: 100%;
+        background-color: var(--lighter-bg);
+        margin: 5px;
+        text-transform: capitalize;
+    }
+    .benafit-cards p{
+        color: var(--muted-text);
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 1.5;
+    }
+    .benafit-image{
+        padding: 10px;
+        text-transform: capitalize;
+    }
+    .benafit-image-cards{
+        width: 100%;
+        justify-self: center;
+        padding: 10px;
+    }
+    .benafit-image-cards img{
+        justify-self: center;
+        border: 3px solid var(--text-1);
+        width: 173px;
+    }
+    .benafit-image-cards2{
+        width: 100%;
+        justify-self: center;
+        padding: 10px;
+    }
+    .benafit-image-cards2 img{
+        justify-self: center;
+        border: 3px solid var(--text-1);
+        width: 100px;
+    }
+    .benafit-image-cards{
+        width: 100%;
+        justify-self: center;
+        padding: 10px;
+    }
+    .benafit-image-cards p{
+        color: var(--muted-text);
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 1.5;
+    }
+    .social-prove-box{
+        display: block;
+        justify-self: center;
+    }
+    .social-prove-card p{
+        font-size: 18px;
+        color: var(--light-text);
+        line-height: 1.5;
+    }
+    .input{
+        font-size: 18px;
+    }
+    .input input{
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: var(--lighter-bg);
+        color: var(--light-text);
+        font-size: 18px;
+    }
+    .input textarea{
+        padding: 10px;
+        margin: 5px;
+        width: 99%;
+        height: 200px;
+        border: none;
+        outline: none;
+        background-color: var(--lighter-bg);
+        color: var(--light-text);
+        font-size: 18px;
+    }
+
+}

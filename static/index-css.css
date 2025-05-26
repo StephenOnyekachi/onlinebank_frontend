@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+:root{
+    --lighter-bg: rgb(249, 249, 249);
+    --light-bg: rgb(213, 209, 209);
+    --text-1: rgb(135, 0, 0);
+    --text-2: rgb(2, 2, 40);
+    --muted-text: rgb(24, 22, 22);
+    --light-text: rgb(102, 102, 102);
+    --dark-text: rgb(8, 8, 8);
+}
+
+/* for displaying items slowly */
+.slow{
+    transform: translateY(100px);
+    transition: all 1.5s;
+    opacity: 0;}
+    .slow.active{
+        transform: translateX(0);
+        /* border: none; */
+        opacity: 1;
+    }
+
+.top-menu{
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--lighter-bg);
+    z-index: 100;
+    border-bottom: 3px solid var(--text-1);
+}
+.top-menu-1 img{
+    width: 100px;
+}
+.top-menu-2{
+    display: flex;
+}
+.top-menu-2 img{
+    padding: 5px;
+    position: relative;
+    margin-top: 5px;
+}
+.top-menu-2 small{
+    padding: 5px;
+    position: relative;
+    top: -8px;
+    font-weight: bold;
+    color: var(--text-1);
+}
+
+.menu-banner{
+    margin-top: 60px;
+    height: 500px;
+}
+.top{
+    margin-top: 60px;
+}
+.menu-banner img{
+    height: 500px;
+    width: 100%;
+}
+.menu-banner-text-box{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    top: -505px;
+    /* margin-left: 30px; */
+    text-transform: capitalize;
+    background-color: rgba(15, 14, 14, 0.795);
+}
+.menu-banner-text-box h2{
+    margin-left: 20px;
+    font-size: 40px;
+    color: var(--text-1);
+}
+.menu-banner-text-box h1{
+    margin-left: 0px;
+    font-size: 60px;
+    color: var(--text-1);
+}
+.menu-banner-text-box p{
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--lighter-bg);
+    margin-top: 20px;
+}
+.menu-banner-text-box a{
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px;
+    top: 20px;
+    bottom: 20px;
+    background-color: var(--text-2);
+    color: var(--text-1);
+    text-decoration: none;
+}
+
+.benafit{
+    padding: 30px;
+    background-color: var(--light-bg);
+}
+.benafit-service{
+    padding: 30px;
+    background-color: var(--lighter-bg);
+}
+.benafit-card{
+    width: 70%;
+    justify-self: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.benafit-title{
+    width: 70%;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px;
+}
+.benafit-title h2{
+    color: var(--text-2);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.benafit-title h2 b{
+    color: var(--text-1);
+}
+.benafit-title span{
+    color: var(--light-text);
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.benafit-cards{
+    padding: 20px;
+    width: 30%;
+    background-color: var(--lighter-bg);
+    margin: 14px;
+    text-transform: capitalize;
+}
+.benafit-cards i{
+    color: var(--text-1);
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.benafit-cards span{
+    color: var(--light-text);
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.benafit-cards h3{
+    color: var(--text-1);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.benafit-cards p{
+    color: var(--muted-text);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+.benafit-image{
+    padding: 30px;
+    text-transform: capitalize;
+}
+.benafit-image-cards{
+    width: 70%;
+    justify-self: center;
+    padding: 10px;
+}
+.benafit-image-cards img{
+    justify-self: center;
+    border: 3px solid var(--text-1);
+}
+.benafit-image-cards2{
+    width: 70%;
+    justify-self: center;
+    padding: 10px;
+}
+.benafit-image-cards2 img{
+    justify-self: center;
+    border: 3px solid var(--text-1);
+}
+.benafit-image-cards h3{
+    color: var(--text-1);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.benafit-image-cards p{
+    color: var(--muted-text);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+.social-prove{
+    padding: 30px;
+    background-color: var(--text-2);
+}
+.social-prove-box{
+    display: flex;
+    justify-self: center;
+}
+.social-prove-card{
+    padding: 20px;
+    color: var(--lighter-bg);
+    font-size: 35px;
+    text-align: center;
+    width: 300px;
+}
+.social-prove-card h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.social-prove-card a{
+    font-size: 12px;
+    color: var(--light-text);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.social-prove-card p{
+    font-size: 12px;
+    color: var(--light-text);
+    line-height: 1.5;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+.input input{
+    padding: 10px;
+    margin: 5px;
+    width: 48.7%;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-bg);
+    color: var(--light-text);
+}
+.input textarea{
+    padding: 10px;
+    margin: 5px;
+    width: 99%;
+    height: 200px;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-bg);
+    color: var(--light-text);
+}
+.input button{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: var(--text-1);
+    color: var(--lighter-bg);
+}
+
+

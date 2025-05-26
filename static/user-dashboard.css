@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --lighter-1: rgb(249, 249, 249);
+    --lighter-2: rgb(241, 241, 241);
+    --light-2: rgb(102, 102, 102);
+    --color-1: rgb(135, 0, 0);
+    --color-2: rgb(93, 5, 5);
+    --text-2: rgb(2, 2, 40);
+    --muted-text: rgb(24, 22, 22);
+    --fade: rgb(206, 202, 202);
+}
+
+.hidden-menu{
+    /* border: 1px solid black; */
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    width: 50%;
+    background-color: var(--color-2);
+    transition: all ease 0.5s;
+    display: block;
+}
+.menu-hidden{
+    display: none;
+}
+.hidden-menu ul{
+    display: flex;
+    width: 100%;
+}
+.hidden-menu ul li{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+}
+.hidden-menu ul li a{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--lighter-1);
+}
+.hidden-menu ul li a i{
+    padding: 0px 10px;
+}
+
+.error-m{
+    background-color: var(--lighter-1);
+    margin: 10px;
+    text-align: center;
+}
+.error-m h3{
+    color: var(--light-2);
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.top-menu{
+    background-color: var(--color-1);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+}
+.menu1{
+    display: block;
+    cursor: pointer;
+}
+.menu1 i{
+    color: var(--lighter-1);
+}
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.menu2 h3{
+    color: var(--lighter-1);
+    text-transform: capitalize;
+    font-weight: none;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.menu2 img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.second-menu{
+    background-color: var(--color-1);
+    padding: 10px;
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 100px;
+}
+.balance{
+    color: var(--lighter-1);
+    font-size: 20px;
+    display: flex;
+    background-color: var(--color-2);
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 0px;
+}
+.balance h3{
+    padding: 10px;
+    margin-top: -13px;
+}
+.user-actions{
+    padding: 10px 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.user-actions a{
+    background-color: var(--color-2);
+    padding: 10px;
+    margin-top: 20px;
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    margin: 5px;
+    height: 100px;
+    color: var(--lighter-1);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.transactions{
+    background-color: var(--lighter-2);
+    padding: 30px 10px;
+}
+.view-transactions{
+    background-color: var(--lighter-2);
+    padding: 30px 10px;
+    height: 100vh;
+    margin-top: 80px;
+}
+.transactions-head{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: var(--text-2);
+}
+.no-transactions{
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--fade);
+    height: 55vh;
+    padding-top: 30px;
+}
+.no-transactions i{
+    font-size: 50px;
+    padding: 20px;
+}
+.transactions-body{
+    background-color: var(--lighter-1);
+    text-transform: capitalize;
+    color: var(--muted-text);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.transactions-body i{
+    margin-left: 10px;
+    font-size: small;
+}
+.transactions-box{
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: var(--muted-text);
+}
+
+.user-card{
+    background-color: var(--lighter-1);
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+}
+.recipt-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 2px solid var(--color-1);
+    text-transform: capitalize;
+}
+.recipt-body{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+.recipt-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.recipt-con p{
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.text-right{
+    text-align: right;
+    right: 0px;
+}
+.confirm-transfer p{
+    padding: 10px;
+}
+
+.input{
+    padding: 2px;
+    /* border: 1px solid black; */
+}
+.input p{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.input input{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-2);
+    color: var(--light-text);
+}
+.input select{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-2);
+    color: var(--light-text);
+}
+.input textarea{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-2);
+    color: var(--light-text);
+}
+.input button{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: var(--color-1);
+    color: var(--lighter-1);
+}
+.input a{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: var(--text-1);
+    color: var(--lighter-bg);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

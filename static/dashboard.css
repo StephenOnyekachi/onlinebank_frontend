@@ -1,0 +1,369 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --lighter-bg: rgb(249, 249, 249);
+    --light-bg: rgb(213, 209, 209);
+    --text-1: rgb(135, 0, 0);
+    --text-2: rgb(2, 2, 40);
+    --muted-text: rgb(24, 22, 22);
+    --light-text: rgb(102, 102, 102);
+    --dark-text: rgb(8, 8, 8);
+}
+
+.profile{
+    display: flex;
+}
+.profile img{
+    width: 50px;
+    border-radius: 50%;
+}
+.profile h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: var(--text-1);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.balance{
+    margin-top: 10px;
+    display: flex;
+}
+.balance h3{
+    margin-left: 10px;
+    margin-top: -5px;
+    color: var(--text-2);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.balance a{
+    text-decoration: none;
+}
+.balance a i{
+    margin-left: 10px;
+    margin-top: 4px;
+    color: var(--text-2);
+}
+
+.task-box{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.task-box a{
+    text-decoration: none;
+    width: 25%;
+    padding: 10px;
+}
+.task-card{
+    background-color: var(--lighter-bg);
+    padding: 10px;
+}
+.task-card i{
+    font-size: 30px;
+    color: var(--text-1);
+}
+.task-card h3{
+    font-size: 20px;
+    color: var(--muted-text);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.task-card small{
+    font-size: 14px;
+    color: var(--light-text);
+}
+
+.user-box{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-box a{
+    text-decoration: none;
+    width: 100%;
+    padding: 5px;
+}
+.user-card{
+    background-color: var(--lighter-bg);
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+}
+.user-card img{
+    width: 30px;
+    border-radius: 50%;
+}
+.user-card i{
+    font-size: 30px;
+    color: var(--text-1);
+}
+.user-card h3{
+    font-size: 20px;
+    color: var(--muted-text);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.user-card small{
+    font-size: 14px;
+    color: var(--light-text);
+}
+
+.button{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button a{
+    padding: 10px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: var(--text-1);
+    color: var(--lighter-bg);
+    width: 30%;
+    margin: 10px;
+}
+
+.recipt-header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 2px solid var(--text-1);
+}
+.recipt-body{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+.recipt-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+
+
+.top-menu{
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--lighter-bg);
+    z-index: 100;
+    border-bottom: 3px solid var(--text-1);
+}
+.top-menu-1 img{
+    width: 100px;
+}
+.top-menu-2{
+    display: flex;
+}
+.top-menu-2 img{
+    padding: 5px;
+    position: relative;
+    margin-top: 5px;
+}
+.top-menu-2 small{
+    padding: 5px;
+    position: relative;
+    top: -8px;
+    font-weight: bold;
+    color: var(--text-1);
+}
+
+.top{
+    margin-top: 60px;
+}
+
+.benafit{
+    padding: 30px;
+    background-color: var(--light-bg);
+}
+.benafit-service{
+    padding: 30px;
+    background-color: var(--lighter-bg);
+}
+.benafit-card{
+    width: 70%;
+    justify-self: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.benafit-title{
+    width: 70%;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px;
+}
+.benafit-title h2{
+    color: var(--text-2);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.benafit-title h2 b{
+    color: var(--text-1);
+}
+.benafit-title span{
+    color: var(--light-text);
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.benafit-title p{
+    color: var(--muted-text);
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+.benafit-cards{
+    padding: 20px;
+    box-shadow: 0px 1px 3px 1px var(--muted-text);
+    width: 30%;
+    background-color: var(--lighter-bg);
+    margin: 14px;
+    text-transform: capitalize;
+}
+.benafit-cards i{
+    color: var(--text-1);
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.benafit-cards span{
+    color: var(--light-text);
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.benafit-cards p{
+    color: var(--muted-text);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+.benafit-image{
+    padding: 30px;
+    text-transform: capitalize;
+}
+.benafit-image-cards{
+    width: 70%;
+    justify-self: center;
+    padding: 10px;
+}
+.benafit-image-cards2{
+    width: 70%;
+    justify-self: center;
+    padding: 10px;
+}
+.benafit-image-cards p{
+    color: var(--muted-text);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+.social-prove{
+    padding: 30px;
+    background-color: var(--text-2);
+}
+.social-prove-box{
+    display: flex;
+    justify-self: center;
+}
+.social-prove-card{
+    padding: 20px;
+    color: var(--lighter-bg);
+    font-size: 35px;
+    text-align: center;
+    width: 300px;
+}
+.social-prove-card h3{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.social-prove-card a{
+    font-size: 12px;
+    color: var(--light-text);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.social-prove-card p{
+    font-size: 12px;
+    color: var(--light-text);
+    line-height: 1.5;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+.input input{
+    padding: 10px;
+    margin: 5px;
+    width: 48.7%;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-bg);
+    color: var(--light-text);
+}
+.input select{
+    padding: 10px;
+    margin: 5px;
+    width: 48.7%;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-bg);
+    color: var(--light-text);
+}
+.input textarea{
+    padding: 10px;
+    margin: 5px;
+    width: 99%;
+    height: 200px;
+    border: none;
+    outline: none;
+    background-color: var(--lighter-bg);
+    color: var(--light-text);
+}
+.input button{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: var(--text-1);
+    color: var(--lighter-bg);
+}
+.input a{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background-color: var(--text-1);
+    color: var(--lighter-bg);
+    text-decoration: none;
+}
+
+
